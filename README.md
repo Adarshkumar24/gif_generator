@@ -1,19 +1,16 @@
 # 🎬 GIF Generator
 
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://your-app-name.vercel.app)
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/gif-generator?style=for-the-badge)](https://github.com/yourusername/gif-generator)
+
 A modern, beautiful React application that generates random GIFs and searches for specific GIFs using the GIPHY API.
 
-## ✨ Features
+![GIF Generator Demo](https://via.placeholder.com/800x400/6366f1/ffffff?text=GIF+Generator+Demo)
 
-- **Random GIF Generation**: Get surprise GIFs with a single click
-- **Tag-based Search**: Search for GIFs by categories or keywords
-- **Modern UI**: Beautiful glass morphism design with gradient backgrounds
-- **Responsive Design**: Works perfectly on desktop and mobile devices
-- **Real-time Loading**: Smooth loading animations and user feedback
-- **Fast Performance**: Optimized React components and API calls
-
-## 🚀 Live Demo
-
-[View Live Demo](https://your-app-name.vercel.app) *(Will be updated after deployment)*
+> 🎯 **Live Demo**: [gif-generator.vercel.app](https://your-app-name.vercel.app) *(Will be updated after deployment)*
 
 ## 🛠️ Technologies Used
 
