@@ -3,6 +3,10 @@ import Tag from './components/Tag'
 
 
 export default function App() {
+  // Debug: Check if components are loading
+  console.log('App component loaded');
+  console.log('API Key available:', !!process.env.REACT_APP_GIPHY_API_KEY);
+  
   return (
   <div className='min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 flex flex-col items-center justify-center p-6'>
       <div className='w-full max-w-7xl mx-auto'>

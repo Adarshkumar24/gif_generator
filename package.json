@@ -1,6 +1,7 @@
 {
   "name": "gif-generator",
   "version": "1.0.0",
+  "homepage": ".",
   "description": "A modern React application for generating random GIFs and searching GIFs by tags using GIPHY API",
   "keywords": [
     "react",
@@ -14,7 +15,6 @@
   ],
   "author": "Adarsh Kumar",
   "license": "MIT",
-  "homepage": "https://github.com/Adarshkumar24/gif_generator#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Adarshkumar24/gif_generator.git"
