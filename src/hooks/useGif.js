@@ -1,6 +1,5 @@
 import axios from 'axios';
-import { useEffect } from 'react';
-import React, { useState } from 'react'
+import { useEffect, useState, useCallback } from 'react';
 
 const useGif = (tag) => {
     const[gif, setgif]= useState("");
@@ -8,7 +7,7 @@ const useGif = (tag) => {
     
     const [loading, setloading] = useState(false)
     
-    async function fetchData(tag){
+    const fetchData = useCallback(async (tag) => {
         setloading(true);
         try {
             const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
@@ -21,11 +20,11 @@ const useGif = (tag) => {
             console.error('Error fetching GIF:', error);
         }
         setloading(false);
-    }
+    }, [API_KEY])
     
     useEffect(() => {
         fetchData();
-    }, [])
+    }, [fetchData])
     
     return {gif, loading, fetchData};
 }
