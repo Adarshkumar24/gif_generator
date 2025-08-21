@@ -8,18 +8,27 @@ export default function App() {
   console.log('API Key available:', !!process.env.REACT_APP_GIPHY_API_KEY);
   
   return (
-  <div className='min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 flex flex-col items-center justify-center p-6'>
+  <div className='min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 flex flex-col items-center justify-center p-6' 
+       style={{
+         minHeight: '100vh',
+         background: 'linear-gradient(135deg, #a855f7, #ec4899, #ef4444)',
+         padding: '20px',
+         color: 'white'
+       }}>
       <div className='w-full max-w-7xl mx-auto'>
-        <div className='text-center mb-16'>
-          <h1 className='text-7xl font-extrabold text-white mb-6 drop-shadow-2xl'>
+        <div className='text-center mb-16' style={{ textAlign: 'center', marginBottom: '40px' }}>
+          <h1 className='text-7xl font-extrabold text-white mb-6 drop-shadow-2xl'
+              style={{ fontSize: '4rem', fontWeight: 'bold', color: 'white', marginBottom: '20px' }}>
             🎬 GIF Generator
           </h1>
-          <p className='text-2xl text-white/90 font-medium'>
+          <p className='text-2xl text-white/90 font-medium'
+             style={{ fontSize: '1.5rem', color: 'rgba(255,255,255,0.9)' }}>
             Generate amazing GIFs instantly with GIPHY API
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 w-full place-items-center" >
+        <div className="grid lg:grid-cols-2 gap-12 w-full place-items-center" 
+             style={{ display: 'grid', gap: '40px', width: '100%' }}>
           <Random />
           <Tag/>
         </div>
