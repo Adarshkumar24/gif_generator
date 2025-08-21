@@ -1,6 +1,6 @@
 # 🎬 GIF Generator
 
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://gif-generator-adarsh.vercel.app)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://gif-generator-teal.vercel.app)
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -8,9 +8,20 @@
 
 A modern, beautiful React application that generates random GIFs and searches for specific GIFs using the GIPHY API.
 
-![GIF Generator Demo](https://via.placeholder.com/800x400/6366f1/ffffff?text=GIF+Generator+Demo)
+![GIF Generator Screenshot](./src/components/page.png)
 
-> 🎯 **Live Demo**: [gif-generator.vercel.app](https://your-app-name.vercel.app) *(Will be updated after deployment)*
+> 🎯 **Live Demo**: [https://gif-generator-teal.vercel.app](https://gif-generator-teal.vercel.app)
+
+## ✨ Features
+
+- **🎲 Random GIF Generation**: Get surprise GIFs with a single click
+- **🏷️ Tag-based Search**: Search for GIFs by categories or keywords  
+- **🎨 Modern Glass Morphism UI**: Beautiful semi-transparent design with backdrop blur
+- **📱 Fully Responsive**: Works perfectly on desktop, tablet, and mobile devices
+- **⚡ Real-time Loading**: Smooth animations and instant user feedback
+- **🚀 Fast Performance**: Optimized React components and efficient API calls
+- **🌈 Gradient Backgrounds**: Eye-catching purple-to-pink-to-red gradients
+- **✨ Hover Effects**: Interactive scaling and shadow animations
 
 ## 🛠️ Technologies Used
 
@@ -127,48 +138,5 @@ This project is licensed under the MIT License.
 ---
 
 ⭐ Star this repository if you found it helpful!
-
-## Overview
-
-The "Random Gif Generator" is a web application that allows users to generate random GIFs or GIFs based on a specific tag or keyword. It uses the Giphy API to fetch GIFs and display them in a visually appealing manner.
-
-## Features
-
-- **Random Gif Generation**:
-  - Click the "Generate" button to fetch and display a random GIF.
-
-- **Tag-Based Gif Generation**:
-  - Enter a specific tag or keyword in the input field, and click "Generate" to fetch and display a GIF related to that tag.
-
-## Preview
-
-![image](https://github.com/yashsarode45/Gif-generator/assets/65209607/92e8a891-9a49-49e0-80f6-ae659664e94b)
-[View Live Demo](https://gif-generator-nu.vercel.app/)
-
-## Technologies
-
-- React
-- Axios
-- Tailwind CSS
-
-
-## Usage
-
-1. **Random Gif Generation**:
-   - Click the "Generate" button in the "A Random Gif" section to fetch and display a random GIF.
-
-2. **Tag-Based Gif Generation**:
-   - Enter a specific tag or keyword in the input field provided in the "A Random {tag} Gif" section.
-   - Click the "Generate" button to fetch and display a GIF related to the entered tag.
-
-## Generating a Random Gif
-
-- In the "A Random Gif" section, click the "Generate" button to fetch and display a random GIF.
-
-## Generating a Tag-Based Gif
-
-- In the "A Random {tag} Gif" section:
-  - Enter a specific tag or keyword in the input field.
-  - Click the "Generate" button to fetch and display a GIF related to the entered tag.
 
 
