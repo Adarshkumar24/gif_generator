@@ -1,10 +1,10 @@
 # 🎬 GIF Generator
 
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://your-app-name.vercel.app)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://gif-generator-adarsh.vercel.app)
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/gif-generator?style=for-the-badge)](https://github.com/yourusername/gif-generator)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Adarshkumar24/gif_generator?style=for-the-badge)](https://github.com/Adarshkumar24/gif_generator)
 
 A modern, beautiful React application that generates random GIFs and searches for specific GIFs using the GIPHY API.
 
@@ -24,8 +24,8 @@ A modern, beautiful React application that generates random GIFs and searches fo
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/gif-generator.git
-   cd gif-generator
+   git clone https://github.com/Adarshkumar24/gif_generator.git
+   cd gif_generator
    ```
 
 2. **Install dependencies**
